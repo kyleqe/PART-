@@ -17,6 +17,17 @@ A fully functional, responsive, and SEO-optimised website built for **KH Trainin
 - Ensure full mobile responsiveness for smartphone users
 - Optimise for local SEO (Cape Town personal trainer)
 
+## Key Features and Functionality
+- 5-page responsive website built with HTML5, CSS3, and JavaScript
+- Sticky navigation bar with mobile hamburger menu
+- Hero section with call to action buttons
+- Services and pricing page with comparison cards
+- Enquiry form
+- Contact page with 2 Cape Town locations
+- Google Maps embed showing both locations (Part 3)
+- SEO meta tags and alt text on all images (Part 3)
+
+
 
 
 
