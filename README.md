@@ -41,6 +41,13 @@ A fully functional, responsive, and SEO-optimised website built for **KH Trainin
 | Final testing and debugging | Week 9–10 |
 | Part 3 final submission |  |
 
+## Part 1 Details
+- **Organisation:** KH Training Co. (Personal training business)
+- **Owner/Head Coach:** Kyle Hove
+- **Location:** Green Point Studio & Camps Bay Outdoor Sessions, Cape Town
+- **Pages created:** index.html, about.html, services.html, enquiry.html, contact.html
+- **Technologies used:** HTML5, CSS3 (Part 1), JavaScript (Part 3)
+
 
 
 
