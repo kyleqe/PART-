@@ -80,6 +80,8 @@ PART 1/
 - README.md created with full project documentation
 - Navigation linking all pages — tested and functional
 
+## References
+
 
 
 
