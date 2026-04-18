@@ -58,18 +58,18 @@ contact.html       - Contact & Locations (2 CT locations, contact form, map)
 
 # File Structure
 PART 1/
-── index.html
-── about.html
-── services.html
-── enquiry.html
-── contact.html
-── README.md
-── css/
-   ── style.css
-── js/
-   ─
-── images/
-    ──
+├── index.html
+├── about.html
+├── services.html
+├── enquiry.html
+├── contact.html
+├── README.md 
+├── css/
+    └── style.css
+├── js/
+   └──
+├── images/
+    └──
 
 ## Changelog
 
