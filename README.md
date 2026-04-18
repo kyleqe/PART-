@@ -71,6 +71,14 @@ PART 1/
 ── images/
     ──
 
+## Changelog
+
+### Part 1 Initial Submission — [20 April]
+- Project repository initialised
+- File and folder structure created
+- All 5 HTML pages created with semantic structure
+- README.md created with full project documentation
+- Navigation linking all pages — tested and functional
 
 
 
