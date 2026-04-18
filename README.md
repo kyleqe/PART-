@@ -48,6 +48,14 @@ A fully functional, responsive, and SEO-optimised website built for **KH Trainin
 - **Pages created:** index.html, about.html, services.html, enquiry.html, contact.html
 - **Technologies used:** HTML5, CSS3 (Part 1), JavaScript (Part 3)
 
+## Sitemap
+KH Training Co. Website
+index.html         - Homepage (hero, services overview, testimonials)
+about.html         - About Kyle Hove (bio, philosophy, qualifications)
+services.html      - Services & Pricing (all packages, FAQ)
+enquiry.html       - Book a Free Consultation (enquiry form)
+contact.html       - Contact & Locations (2 CT locations, contact form, map)
+
 
 
 
