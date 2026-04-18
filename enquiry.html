@@ -61,6 +61,93 @@
     </div>
   </section>
 
+  <section class="section">
+    <div class="container">
+      <div class="section header">
+        <h2>Fill In Your Details</h2>
+        <div class="divider"></div>
+        <p>Complete the form below and Kyle will get back to you within 24 hours to confirm your consultation.</p>
+      </div>
+
+      <form>
+        <div class="form row">
+          <div class="form group">
+            <label for="first name">First Name</label>
+            <input type="text" id="first-name" name="first_name" alt="e.g. Sarah" required />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last_name" alt="e.g. Muller" required />
+          </div>
+        </div>
+
+        <div class="form row">
+          <div class="form group">
+            <label for="email">Email Address </label>
+            <input type="email" id="email" name="email" alt="e.g. sarah@example.com" required />
+          </div>
+          <div class="form group">
+            <label for="phone">Phone Number </label>
+            <input type="tel" id="phone" name="phone" alt="e.g. 082 000 0000" required />
+          </div>
+        </div>
+
+        <div class="form group">
+          <label for="training goal">Primary Training Goal</label>
+          <select id="training goal" name="training goal" required>
+            <option value="" disabled selected>Select your main goal</option>
+            <option value="weight loss">Weight Loss &amp; Fat Reduction</option>
+            <option value="muscle gain">Muscle Building &amp; Strength</option>
+            <option value="fitness">General Fitness &amp; Health</option>
+            <option value="sport">Sport-Specific Performance</option>
+            <option value="rehab">Post-Injury Rehabilitation</option>
+            <option value="corporate">Corporate / Team Wellness</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form group">
+          <label for="preferred service">Preferred Service *</label>
+          <select id="preferred service" name="preferred service" required>
+            <option value="" disabled selected>Select a service</option>
+            <option value="pt">1-on-1 Personal Training (Green Point Studio)</option>
+            <option value="bootcamp">Group Bootcamp (Camps Bay)</option>
+            <option value="online">Online Coaching (Remote)</option>
+            <option value="nutrition">Nutrition Guidance Only</option>
+            <option value="corporate">Corporate Wellness</option>
+            <option value="unsure">Not Sure — Need Advice</option>
+          </select>
+        </div>
+
+        <div class="form group">
+          <label for="fitness level">Current Fitness Level</label>
+          <select id="fitness level" name="fitness_level">
+            <option value="" disabled selected>Select your level</option>
+            <option value="beginner">Beginner - I rarely exercise</option>
+            <option value="intermediate">Intermediate - I train occasionally</option>
+            <option value="active">Active - I train 2-3 times per week</option>
+            <option value="advanced">Advanced - I train 4+ times per week</option>
+          </select>
+        </div>
+
+        <div class="form group">
+          <label for="message">Tell Kyle More About Your Goals</label>
+          <textarea id="message" name="message" alt="Share anything that will help Kyle prepare for your consultation (current injuries, past experience, specific challenges, preferred schedule, etc.)"></textarea>
+        </div>
+
+        <button type="submit" class="btn">
+          Submit Consultation Request
+        </button>
+
+        <p>
+          By submitting this form, you agree to be contacted by KH Training Co. regarding your enquiry. We respect your privacy and will never share your details with third parties.
+        </p>
+    
+
+      </form>
+    </div>
+  </section>
+
 
   <footer class="footer">
     <div class="container">
