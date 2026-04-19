@@ -81,7 +81,8 @@ PART 1/
 - Navigation linking all pages — tested and functional
 
 ## References
-
+ - REPSSA. 2024. *Register of Exercise Professionals South Africa.* [Online]. Available at: https://www.repssa.com [Accessed: 9 April 2026].
+- MDN Web Docs. 2024. *HTML5 semantic elements reference.* [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed: 9 April 2026].
 
 
 
