@@ -29,11 +29,11 @@ A fully functional, responsive, and SEO-optimised website built for **KH Trainin
 
 ## Timeline and Milestones
 
-| Milestone | Target Date | Status |
-|-----------|-------------|--------|
-| Content research and assets sourced | Week 4 | ⬜ |
-| HTML structure complete (all 5 pages) | Week 5 | ⬜ |
-| Part 1 submitted | 20 April | ⬜ |
+| Milestone | Target Date |
+|-----------|-------------|
+| Content research and assets sourced | Week 4 
+| HTML structure complete (all 5 pages) | Week 5 |
+| Part 1 submitted | 20 April |
 | CSS styling and responsive design complete | Week 7 |
 | Part 2 submitted |  |
 | JavaScript functionality added | Week 8 |
