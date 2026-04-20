@@ -81,7 +81,7 @@ PART 1/
 - Navigation linking all pages — tested and functional
 
 ## References
- - REPSSA. 2024. *Register of Exercise Professionals South Africa.* [Online]. Available at: https://www.repssa.com [Accessed: 9 April 2026].
+- REPSSA. 2024. *Register of Exercise Professionals South Africa.* [Online]. Available at: https://www.repssa.com [Accessed: 9 April 2026].
 - MDN Web Docs. 2024. *HTML5 semantic elements reference.* [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/HTML [Accessed: 9 April 2026].
 - Google. 2026. *KH Training Co. trainer in professional gym setting* [AI-generated image]. Google Gemini. Generated: 19 April 2026. Available at: https://gemini.google.com [Accessed: 19 April 2026].
 - GitHub. 2024. *GitHub Pages documentation.* [Online]. Available at: https://docs.github.com/en/pages [Accessed: 17 April 2026].
