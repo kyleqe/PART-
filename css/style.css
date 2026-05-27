@@ -142,3 +142,16 @@ p { margin-bottom: 1rem;
   color: var(--navy);
   transform: translateY(-2px);
 }
+
+.btn--navy {
+  background: var(--navy);
+  color: var(--white);
+  border-color: var(--navy);
+}
+
+.btn--navy:hover {
+  background: var(--navy-dark);
+  border-color: var(--navy-dark);
+  color: var(--white);
+  transform: translateY(-2px);
+}
