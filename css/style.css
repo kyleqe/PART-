@@ -271,3 +271,19 @@ p { margin-bottom: 1rem;
     color: var(--orange-lt);
 }
 
+.hero h1 {
+  color: var(--white);
+  margin-bottom: 1.25rem;
+}
+
+.hero h1 span { 
+    color: var(--orange); 
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 2rem;
+  max-width: 480px;
+}
+
