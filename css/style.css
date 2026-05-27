@@ -61,4 +61,7 @@ ul { list-style: none;
   color: var(--navy);
 }
 
+p { margin-bottom: 1rem;
+}
+
 
