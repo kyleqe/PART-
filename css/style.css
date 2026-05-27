@@ -287,3 +287,8 @@ p { margin-bottom: 1rem;
   max-width: 480px;
 }
 
+.heroBtns{
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
