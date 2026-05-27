@@ -203,3 +203,31 @@ p { margin-bottom: 1rem;
     color: var(--white);
   background: rgba(255,255,255,0.1);
 }
+
+.navCTA{
+    background: var(--orange)
+    color: var(--white)
+    padding: 0.5rem 1.2rem
+}
+
+.navCTA :hover{
+    background: var(--orange-lt)
+}
+
+.navToggle{
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.navToggle span{
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--white);
+  border-radius: 2px;
+  transition: all var(--transition);
+}
+
