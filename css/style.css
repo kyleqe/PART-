@@ -395,3 +395,26 @@ p { margin-bottom: 1rem;
     font-size: 0.8rem; 
     color: var(--midgrey); 
 }
+
+/* about*/
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.about-img {
+  background: linear-gradient(135deg, var(--navy), var(--navy-dark));
+  border-radius: 16px;
+  height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.3);
+  font-size: 0.9rem;
+  font-family: var(--font-head);
+  text-align: center;
+  padding: 2rem;
+}
