@@ -298,6 +298,7 @@ p { margin-bottom: 1rem;
   border: 1px solid rgba(255,255,255,0.1);
   border-radius: 16px;
   padding: 2.5rem;
+  backdrop-filter: blur(10px);
 }
 
 .heroStatas{
@@ -306,7 +307,7 @@ p { margin-bottom: 1rem;
   gap: 1.5rem;
 }
 
-.stat{
+.stat {
   text-align: center;
   padding: 1.25rem;
   background: rgba(255,255,255,0.07);
@@ -446,6 +447,72 @@ p { margin-bottom: 1rem;
   font-size: 0.75rem;
   font-weight: 700;
 }
+
+/* pricing*/
+.pricingGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.pricingCard {
+  background: var(--white);
+  border: 2px solid var(--lightgrey);
+  border-radius: 12px;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  transition: all var(--transition);
+  position: relative;
+}
+
+.pricingCard:hover,
+.pricingCard--featured {
+  border-color: var(--orange);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+.pricingCard--featured .badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--orange);
+  color: var(--white);
+  font-family: var(--font-head);
+  font-weight: 700;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+}
+
+.pricingCardIcon { 
+  font-size: 2rem; 
+  margin-bottom: 1rem; 
+}
+.pricingCard h3 { 
+  font-size: 1.1rem; 
+  margin-bottom: 0.5rem; 
+}
+.pricingCardPrice {
+  font-family: var(--font-head);
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: var(--orange);
+  margin: 0.75rem 0;
+}
+.pricingCardPrice span { 
+  font-size: 1rem; 
+  font-weight: 600; 
+  color: var(--midgrey); 
+}
+.pricingCard p { 
+  font-size: 0.9rem; 
+  color: #555; 
+}
+
+
 /* footer */
 
 .footer {
