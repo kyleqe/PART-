@@ -1,4 +1,24 @@
 /* Variables */
 :root {
-    
+     --navy:      #1A3C5E;
+  --navy-dark: #0F2640;
+  --orange:    #E8610A;
+  --orange-lt: #FF7A2B;
+  --offwhite:  #F8F8F8;
+  --lightgrey: #EEEEEE;
+  --midgrey:   #999999;
+  --darktext:  #1C1C1C;
+  --white:     #FFFFFF;
+
+  --font-head: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-md: 0 4px 20px rgba(0,0,0,0.12);
+  --shadow-lg: 0 8px 40px rgba(0,0,0,0.16);
+
+  --radius:    8px;
+  --transition: 0.3s ease;
+
 }
+
