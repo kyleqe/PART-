@@ -37,3 +37,20 @@ body {
   color: var(--darktext);
   background: var(--white);
 }
+
+img { max-width: 100%;
+     height: auto;
+      display: block;
+ }
+
+ a { color: var(--orange);
+     text-decoration: none;
+     transition: color var(--transition);
+ }
+a:hover { color: var(--orange-lt);
+ }
+
+ul { list-style: none;
+ }
+
+ 
