@@ -155,3 +155,13 @@ p { margin-bottom: 1rem;
   color: var(--white);
   transform: translateY(-2px);
 }
+
+/* header and nav*/
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: var(--navy);
+  box-shadow: var(--shadow-md);
+}
