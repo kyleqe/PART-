@@ -329,3 +329,38 @@ p { margin-bottom: 1rem;
   letter-spacing: 1px;
   margin-top: 0.4rem;
 }
+
+/* carrds */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.75rem;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--orange);
+}
+
+.card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--lightgrey);
+  transition: all var(--transition);
+}
+
+.card h3 { 
+    margin-bottom: 0.75rem; 
+}
+
+.card p { 
+  color: #555;
+  font-size: 0.95rem; 
+  margin-bottom: 0;
+ }
+
+ 
