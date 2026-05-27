@@ -123,4 +123,11 @@ p { margin-bottom: 1rem;
   border-color: var(--orange);
 }
 
+.btn--primary:hover {
+  background: var(--orange-lt);
+  border-color: var(--orange-lt);
+  color: var(--white);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
 
