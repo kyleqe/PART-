@@ -231,3 +231,43 @@ p { margin-bottom: 1rem;
   transition: all var(--transition);
 }
 
+/* hero */
+.hero{
+  background: linear-gradient(135deg, var(--navy-dark) 0%, var(--navy) 60%, #1e4d7a 100%);
+  color: var(--white);
+  padding: 7rem 0 5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero ::before{
+  position: absolute;
+  top: -50%;
+  right: -10%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(232,97,10,0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.heroInner{
+    display: grid;
+    gap: 3rem;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.heroTag{
+    display: inline-block;
+    font-family: var(--font-head);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 0.4 rem 3rem;
+    border-radius: 20px;
+    border: 1px solid rgba(232,97,10,0.3);
+    margin-bottom: 1.25rem;
+    background: rgba(232,97,10,0.2);
+    color: var(--orange-lt);
+}
+
