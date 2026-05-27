@@ -1,6 +1,6 @@
 /* Variables */
 :root {
-     --navy:      #1A3C5E;
+  --navy:      #1A3C5E;
   --navy-dark: #0F2640;
   --orange:    #E8610A;
   --orange-lt: #FF7A2B;
@@ -417,6 +417,34 @@ p { margin-bottom: 1rem;
   font-family: var(--font-head);
   text-align: center;
   padding: 2rem;
+}
+
+.qualifications {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.qualItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.95rem;
+  color: #444;
+}
+.qualItem ::before{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  background: var(--orange);
+  color: var(--white);
+  border-radius: 50%;
+  font-size: 0.75rem;
+  font-weight: 700;
 }
 /* footer */
 
