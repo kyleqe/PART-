@@ -363,4 +363,35 @@ p { margin-bottom: 1rem;
   margin-bottom: 0;
  }
 
- 
+
+/* Testimonials*/
+
+.testimonials { 
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 1.75rem; 
+}
+
+.testimonial {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  border: 4px solid var(--orange);
+}
+
+.testimonialText { 
+    font-style: italic; 
+    color: #444; 
+    margin-bottom: 1rem; 
+}
+.testimonialAuthor { 
+    font-family: var(--font-head); 
+    font-weight: 700; 
+    font-size: 0.9rem; 
+    color: var(--navy); 
+}
+.testimonialRole { 
+    font-size: 0.8rem; 
+    color: var(--midgrey); 
+}
