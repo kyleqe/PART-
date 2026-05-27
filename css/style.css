@@ -131,3 +131,14 @@ p { margin-bottom: 1rem;
   box-shadow: var(--shadow-md);
 }
 
+.btn--outline {
+  background: transparent;
+  color: var(--white);
+  border-color: var(--white);
+}
+
+.btn--outline:hover {
+  background: var(--white);
+  color: var(--navy);
+  transform: translateY(-2px);
+}
