@@ -572,6 +572,45 @@ p { margin-bottom: 1rem;
   text-align: center;
   padding: 2rem;
 }
+/* forms*/
+.formGroup { 
+  margin-bottom: 1.5rem; 
+}
+
+.formGroup label {
+  display: block;
+  font-family: var(--font-head);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--navy);
+  margin-bottom: 0.5rem;
+}
+
+.formGroup input,
+.formGroup select,
+.formGroup textarea {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: 2px solid var(--lightgrey);
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  color: var(--darktext);
+  background: var(--white);
+  transition: border-color var(--transition);
+}
+
+.formGroup input:focus,
+.formGroup select:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: var(--orange);
+}
+
+.formGroup textarea { 
+  resize: vertical; 
+  min-height: 130px; 
+}
 
 
 /* footer */
