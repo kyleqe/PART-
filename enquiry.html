@@ -4,26 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book a Consultation | KH Training Co.</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <!--header-->
 <body>
     <header class="site-header">
     <nav class="nav container">
-      <a href="index.html" class="nav logo">KH <span>Training Co.</span></a>
-      <ul class="nav__links">
+      <a href="index.html" class="navLogo">KH <span>Training Co.</span></a>
+      <ul class="navLinks">
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="services.html">Services</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="enquiry.html" class="nav cta">Book Free Consult</a></li>
+        <li><a href="enquiry.html" class="navCTA">Book Free Consult</a></li>
       </ul>
-      <div class="nav toggle" aria-label="Toggle navigation">
+      <div class="navToggle" aria-label="Toggle navigation">
         <span></span><span></span><span></span>
       </div>
-    </nav>
-  </header>
+      </nav>
+      </header>
     <!--hero-->
-  <section class="page-hero">
+  <section class="hero">
     <div class="container">
       <h1>Book Your Free Consultation</h1>
       <p>A free 30-minute session with Kyle no commitment, no pressure. Just a conversation about your goals.</p>
@@ -32,29 +33,29 @@
       <!--what to expect-->
    <section class="section">
     <div class="container">
-      <div class="section zheader">
+      <div class="sectionHeader">
         <h2>What to Expect</h2>
         <div class="divider"></div>
         <p>Your free consultation is a no-obligation conversation to help Kyle understand your goals and recommend the right programme.</p>
       </div>
       <div class="cards">
         <div class="card">
-          <div class="card icon"></div>
+          <div class="cardIcon"></div>
           <h3>Goal Assessment</h3>
           <p>Tell Kyle about your fitness goals, current activity level, and any injuries or limitations.</p>
         </div>
         <div class="card">
-          <div class="card icon"></div>
+          <div class="cardIcon"></div>
           <h3>Programme Recommendation</h3>
           <p>Kyle will recommend the best training package for your goals, schedule, and budget.</p>
         </div>
         <div class="card">
-          <div class="card icon"></div>
+          <div class="cardIcon"></div>
           <h3>Q&amp;A Session</h3>
           <p>Ask Kyle anything  nutrition, training approach, what a typical session looks like, and more.</p>
         </div>
         <div class="card">
-          <div class="card icon"></div>
+          <div class="cardIcon"></div>
           <h3>No Pressure</h3>
           <p>There's absolutely no obligation to sign up. This is about finding the right fit for you.</p>
         </div>
@@ -64,36 +65,36 @@
      <!--your detailes-->
   <section class="section">
     <div class="container">
-      <div class="section header">
+      <div class="sectionHeader">
         <h2>Fill In Your Details</h2>
         <div class="divider"></div>
         <p>Complete the form below and Kyle will get back to you within 24 hours to confirm your consultation.</p>
       </div>
        <!--your name-->
       <form>
-        <div class="form row">
-          <div class="form group">
+        <div class="formRow">
+          <div class="formGroup">
             <label for="first name">First Name</label>
             <input type="text" id="first-name" name="first_name" alt="e.g. Sarah" required />
           </div>
-          <div class="form-group">
+          <div class="formGroup">
             <label for="last-name">Last Name</label>
             <input type="text" id="last-name" name="last_name" alt="e.g. Muller" required />
           </div>
         </div>
        <!--contact info-->
-        <div class="form row">
-          <div class="form group">
+        <div class="formRow">
+          <div class="formGroup">
             <label for="email">Email Address </label>
             <input type="email" id="email" name="email" alt="e.g. sarah@example.com" required />
           </div>
-          <div class="form group">
+          <div class="formGroup">
             <label for="phone">Phone Number </label>
             <input type="tel" id="phone" name="phone" alt="e.g. 082 000 0000" required />
           </div>
         </div>
        <!--your goal-->
-        <div class="form group">
+        <div class="formGroup">
           <label for="training goal">Primary Training Goal</label>
           <select id="training goal" name="training goal" required>
             <option value="" disabled selected>Select your main Goal
@@ -111,7 +112,7 @@
           </select>
         </div>
        <!--service you want-->
-        <div class="form group">
+        <div class="formGroup">
           <label for="preferred service">Preferred Service</label>
           <select id="preferred service" name="preferred service" required>
             <option value="" disabled selected>Select a service</option>
@@ -124,7 +125,7 @@
           </select>
         </div>
         <!--yout level-->
-        <div class="form group">
+        <div class="formGroup">
           <label for="fitness level">Current Fitness Level</label>
           <select id="fitness level" name="fitness_level">
             <option value="" disabled selected>Select your level</option>
@@ -135,7 +136,7 @@
           </select>
         </div>
            <!--about your goals-->
-        <div class="form group">
+        <div class="formGroup">
           <label for="message">Tell Kyle More About Your Goals</label>
           <textarea id="message" name="message" alt="Share anything that will help Kyle prepare for your consultation (current injuries, past experience, specific challenges, preferred schedule, etc.)"></textarea>
         </div>
