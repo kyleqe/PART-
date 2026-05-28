@@ -612,6 +612,11 @@ p { margin-bottom: 1rem;
   min-height: 130px; 
 }
 
+.formRow { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  gap: 1.25rem; 
+}
 
 /* footer */
 
