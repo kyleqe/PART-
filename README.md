@@ -71,6 +71,14 @@ PART 1/
 ├── images/
     └──
 
+## Test and iterate
+desktop size
+![Desktop size](Screenshot_29-5-2026_15413_-1-1.jpeg)
+Tablet size
+![Tablet size](Screenshot_29-5-2026_15337_-1.jpeg)
+Mobile size
+![Mobile size](Screenshot_29-5-2026_1531_-1.jpeg)
+
 ## Changelog
 
 ### Part 1 Initial Submission — [20 April]
