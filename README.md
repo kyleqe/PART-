@@ -74,12 +74,12 @@ PART 1/
     └──
 
 ## Test and iterate
-desktop size
-[Desktop size](Screenshot_29-5-2026_15413_-1-1.jpeg)
-Tablet size
-[Tablet size](Screenshot_29-5-2026_15337_-1.jpeg)
-Mobile size
-[Mobile size](Screenshot_29-5-2026_1531_-1.jpeg)
+
+- [Desktop size](Screenshot_29-5-2026_15413_-1-1.jpeg)
+
+- [Tablet size](Screenshot_29-5-2026_15337_-1.jpeg)
+
+- [Mobile size](Screenshot_29-5-2026_1531_-1.jpeg)
 
 ## Changelog
 
@@ -120,6 +120,9 @@ Mobile size
 - City of Cape Town. 2024. *Green Point neighbourhood information.* [Online]. Available at: https://www.capetown.gov.za [Accessed: 9 April 2026].
 - Google Fonts. 2024. *Montserrat and Open Sans font families.* [Online]. Available at: https://fonts.google.com [Accessed: 9 April 2026].
 - Dixon and Moe. 2025. *HTML Color Codes.* [Online]. Available at: https://htmlcolorcodes.com [Accessed: 9 April 2026].
+- Slaying The Dragon. (2024) *Learn CSS Variables In 7 Minutes*[Youtube]. Available at: https://www.youtube.com/watch?v=5wLrz_zUwoU 
+[Accessed: 9 May 2026].
+- Coding2GO. (2025) *Learn CSS Flexbox in 20 Minutes (Course)*[Youtube]. Available at:https://www.youtube.com/watch?v=wsTv9y931o8 [Accessed: 9 May 2026].
 
 
 
