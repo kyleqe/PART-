@@ -79,6 +79,10 @@ PART 1/
 - All 5 HTML pages created with semantic structure
 - README.md created with full project documentation
 - Navigation linking all pages — tested and functional
+- updated the project proposal
+- created a  proper budget for the project
+- created a  wireframe
+
 
 ## References
 - REPSSA. 2024. *Register of Exercise Professionals South Africa.* [Online]. Available at: https://www.repssa.com [Accessed: 9 April 2026].
