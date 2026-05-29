@@ -91,6 +91,24 @@ Mobile size
 - created a  proper budget for the project
 - created a  wireframe
 
+## Part 2 intial submission - [29 May]
+- Applied full CSS stylesheet across all 5 pages
+- Implemented navy (#1A3C5E) and orange (#E8610A) colour scheme
+- Added Google Fonts — Montserrat (headings) and Open Sans (body)
+- Built responsive layout using CSS Flexbox and Grid
+- Added @media (max-width: 900px) breakpoint for tablet layout
+- Added @media (max-width: 680px) breakpoint for mobile layout
+- Implemented sticky navigation bar across all pages
+- Added hover animations on cards, buttons, and nav links
+- Styled hero section with 2-column desktop layout
+- Styled service cards with 3-column grid (desktop), 2-column (tablet), 1-column (mobile)
+- Styled pricing table with featured card highlight
+- Styled enquiry and contact forms with input focus states
+- Added CSS variables for consistent colour usage throughout
+- Styled footer with 3-column grid layout
+- Compressed and optimised all images for faster load times
+- Cross-browser tested on Chrome, Firefox, and Edge
+
 
 ## References
 - REPSSA. 2024. *Register of Exercise Professionals South Africa.* [Online]. Available at: https://www.repssa.com [Accessed: 9 April 2026].
