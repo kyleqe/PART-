@@ -58,7 +58,7 @@ contact.html       - Contact & Locations (2 CT locations, contact form, map)
 
 [site mape](sitemap.png)
 
-# File Structure!
+# File Structure
 PART 1/
 ├── index.html
 ├── about.html
@@ -75,11 +75,11 @@ PART 1/
 
 ## Test and iterate
 desktop size
-![Desktop size](Screenshot_29-5-2026_15413_-1-1.jpeg)
+[Desktop size](Screenshot_29-5-2026_15413_-1-1.jpeg)
 Tablet size
-![Tablet size](Screenshot_29-5-2026_15337_-1.jpeg)
+[Tablet size](Screenshot_29-5-2026_15337_-1.jpeg)
 Mobile size
-![Mobile size](Screenshot_29-5-2026_1531_-1.jpeg)
+[Mobile size](Screenshot_29-5-2026_1531_-1.jpeg)
 
 ## Changelog
 
