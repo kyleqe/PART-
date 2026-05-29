@@ -56,7 +56,9 @@ services.html      - Services & Pricing (all packages, FAQ)
 enquiry.html       - Book a Free Consultation (enquiry form)
 contact.html       - Contact & Locations (2 CT locations, contact form, map)
 
-# File Structure
+[site mape](sitemap.png)
+
+# File Structure!
 PART 1/
 ├── index.html
 ├── about.html
