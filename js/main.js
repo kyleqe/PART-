@@ -129,9 +129,16 @@ function handleFormSubmit(form, successMessage) {
       if (firstError) firstError.focus();
       return;
     }
-
-    // Student project — in production this would POST to a real
-    // backend or a form service (e.g. Formspree, Netlify Forms).
     showFormSuccess(form, successMessage);
   });
+}
+
+/*  validation onto the enquiry form */
+const enquiryForm = document.querySelector("#enquiry-form");
+if (enquiryForm) {
+  attachLiveValidation(enquiryForm);
+  handleFormSubmit(
+    enquiryForm,
+    "Thanks! Your consultation request has been received. Kyle will be in touch within 24 hours."
+  );
 }
