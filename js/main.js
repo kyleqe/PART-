@@ -48,3 +48,31 @@ function isValidPhone(value) {
   const phonePattern = /^(\+27\s?\d{2}|0\d{2})[\s-]?\d{3}[\s-]?\d{4}$/;
   return phonePattern.test(value.trim());
 }
+
+function validateField(input) {
+  const value = input.value.trim();
+  const isRequired = input.hasAttribute("required");
+
+  if (isRequired && value === "") {
+    showFieldError(input, "This field is required.");
+    return false;
+  }
+
+  if (input.type === "email" && value !== "" && !isValidEmail(value)) {
+    showFieldError(input, "Please enter a valid email address.");
+    return false;
+  }
+
+  if (input.type === "tel" && value !== "" && !isValidPhone(value)) {
+    showFieldError(input, "Please enter a valid South African phone number, e.g. 082 000 0000.");
+    return false;
+  }
+
+  if (input.tagName === "SELECT" && isRequired && value === "") {
+    showFieldError(input, "Please make a selection.");
+    return false;
+  }
+
+  clearFieldError(input);
+  return true;
+}
