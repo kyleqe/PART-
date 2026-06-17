@@ -77,3 +77,16 @@ function validateField(input) {
   return true;
 }
 
+function attachLiveValidation(form) {
+  const fields = form.querySelectorAll("input, select, textarea");
+  fields.forEach(function (field) {
+    field.addEventListener("blur", function () {
+      validateField(field);
+    });
+    field.addEventListener("input", function () {
+      if (field.classList.contains("inputError")) {
+        validateField(field);
+      }
+    });
+  });
+}
