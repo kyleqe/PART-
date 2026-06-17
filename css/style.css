@@ -617,6 +617,31 @@ p { margin-bottom: 1rem;
   grid-template-columns: 1fr 1fr; 
   gap: 1.25rem; 
 }
+/* Form Validation */
+.inputError {
+  border-color: #D64545 !important;
+  background: #FFF5F5;
+}
+
+.fieldError {
+  display: block;
+  color: #D64545;
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+  font-family: var(--font-body);
+}
+
+.formSuccess {
+  display: none;
+  background: #E6F4EA;
+  border: 1px solid #34A853;
+  color: #1E7E34;
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
 
 /* footer */
 
