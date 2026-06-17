@@ -90,3 +90,24 @@ function attachLiveValidation(form) {
     });
   });
 }
+
+function showFormSuccess(form, message) {
+  let successBox = form.querySelector(".formSuccess");
+  if (!successBox) {
+    successBox = document.createElement("div");
+    successBox.className = "formSuccess";
+    form.prepend(successBox);
+  }
+  successBox.textContent = message;
+  successBox.style.display = "block";
+  form.reset();
+
+  form.querySelectorAll(".inputError").forEach(function (el) {
+    el.classList.remove("inputError");
+  });
+  form.querySelectorAll(".fieldError").forEach(function (el) {
+    el.textContent = "";
+  });
+
+  successBox.scrollIntoView({ behavior: "smooth", block: "center" });
+}
