@@ -111,3 +111,27 @@ function showFormSuccess(form, message) {
 
   successBox.scrollIntoView({ behavior: "smooth", block: "center" });
 }
+
+function handleFormSubmit(form, successMessage) {
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    const fields = form.querySelectorAll("input, select, textarea");
+    let isFormValid = true;
+
+    fields.forEach(function (field) {
+      const valid = validateField(field);
+      if (!valid) isFormValid = false;
+    });
+
+    if (!isFormValid) {
+      const firstError = form.querySelector(".inputError");
+      if (firstError) firstError.focus();
+      return;
+    }
+
+    // Student project — in production this would POST to a real
+    // backend or a form service (e.g. Formspree, Netlify Forms).
+    showFormSuccess(form, successMessage);
+  });
+}
