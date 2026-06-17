@@ -29,3 +29,11 @@ function showFieldError(input, message) {
   errorEl.textContent = message;
   input.classList.add("inputError");
 }
+
+function clearFieldError(input) {
+  const formGroup = input.closest(".formGroup");
+  if (!formGroup) return;
+  const errorEl = formGroup.querySelector(".fieldError");
+  if (errorEl) errorEl.textContent = "";
+  input.classList.remove("inputError");
+}
