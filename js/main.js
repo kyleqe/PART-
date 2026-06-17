@@ -16,3 +16,16 @@ if (navToggle && navLinks) {
     });
   });
 }
+
+function showFieldError(input, message) {
+  const formGroup = input.closest(".formGroup");
+  if (!formGroup) return;
+  let errorEl = formGroup.querySelector(".fieldError");
+  if (!errorEl) {
+    errorEl = document.createElement("span");
+    errorEl.className = "fieldError";
+    formGroup.appendChild(errorEl);
+  }
+  errorEl.textContent = message;
+  input.classList.add("inputError");
+}
