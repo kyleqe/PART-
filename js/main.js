@@ -142,3 +142,13 @@ if (enquiryForm) {
     "Thanks! Your consultation request has been received. Kyle will be in touch within 24 hours."
   );
 }
+
+/*validation onto the contact form */
+const contactForm = document.querySelector("#contact-form");
+if (contactForm) {
+  attachLiveValidation(contactForm);
+  handleFormSubmit(
+    contactForm,
+    "Thanks for reaching out! Kyle will respond to your message within 24 hours."
+  );
+}
