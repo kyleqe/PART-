@@ -42,3 +42,9 @@ function isValidEmail(value) {
   const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   return emailPattern.test(value);
 }
+
+function isValidPhone(value) {
+  // SA formats: 082 000 0000 / 0820000000 / +27 82 000 0000
+  const phonePattern = /^(\+27\s?\d{2}|0\d{2})[\s-]?\d{3}[\s-]?\d{4}$/;
+  return phonePattern.test(value.trim());
+}
