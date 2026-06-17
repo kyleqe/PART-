@@ -7,4 +7,12 @@ if (navToggle && navLinks) {
     navLinks.classList.toggle("open");
     navToggle.classList.toggle("open");
   });
+
+  // Close the mobile menu once a link is tapped
+  navLinks.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", function () {
+      navLinks.classList.remove("open");
+      navToggle.classList.remove("open");
+    });
+  });
 }
