@@ -76,3 +76,4 @@ function validateField(input) {
   clearFieldError(input);
   return true;
 }
+
