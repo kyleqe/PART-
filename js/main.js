@@ -37,3 +37,8 @@ function clearFieldError(input) {
   if (errorEl) errorEl.textContent = "";
   input.classList.remove("inputError");
 }
+
+function isValidEmail(value) {
+  const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailPattern.test(value);
+}
