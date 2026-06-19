@@ -33,4 +33,12 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- Contact -->
+  <url>
+    <loc>https://github.com/kyleqe/PART-/blob/main/contact.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
