@@ -187,8 +187,9 @@ function handleFormSubmit(form, successMessage) {
 const enquiryForm = document.querySelector("#enquiry-form");
 if (enquiryForm) {
   attachLiveValidation(enquiryForm);
-  handleFormSubmit(
+  submitFormAjax(
     enquiryForm,
+    "https://formspree.io/f/xojzobwy",
     "Thanks! Your consultation request has been received. Kyle will be in touch within 24 hours."
   );
 }
@@ -197,8 +198,9 @@ if (enquiryForm) {
 const contactForm = document.querySelector("#contact-form");
 if (contactForm) {
   attachLiveValidation(contactForm);
-  handleFormSubmit(
+  submitFormAjax(
     contactForm,
-    "Thanks for reaching out! Kyle will respond to your message within 24 hours."
+    "https://formspree.io/f/xeewbdrp",
+   "Thanks for reaching out! Kyle will respond to your message within 24 hours."
   );
 }
