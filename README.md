@@ -220,6 +220,35 @@ PART 1/
 - Coding2GO. (2025) *Learn CSS Flexbox in 20 Minutes (Course)*[Youtube]. Available at:https://www.youtube.com/watch?v=wsTv9y931o8 [Accessed: 9 May 2026].
 - Google. 2026. *KH Training Co. studio and bootcamp gallery images*[AI-generated images, 5x]. Google Gemini. Generated: [9 June 2026]. Available at: https://gemini.google.com [Accessed: 9 June 2026].
 - Formspree. 2024. *Formspree — HTML form backend service.*  [Online]. Available at: https://formspree.io   [Accessed: [18 june 2026]].
+- freeCodeCamp.org. (2024) *JavaScript Algorithms and Data Structures — Full Course* [YouTube]. Available at: https://www.youtube.com/watch?v=PkZNo7MFNFg [Accessed: [10 June]].
+- MDN Web Docs. 2024. *IntersectionObserver API.* [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API [Accessed: 10 June].
+- MDN Web Docs. 2024. *Using the Fetch API.* [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch [Accessed: 10 June].
+
+- MDN Web Docs. 2024. *FormData.* [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/API/FormData [Accessed: 10 June].
+
+- W3Schools. 2024. *JavaScript Form Validation.* [Online]. Available at: https://www.w3schools.com/js/js_validation.asp [Accessed: 10 June].
+
+- W3Schools. 2024. *JavaScript Regular Expressions.* [Online]. Available at: https://www.w3schools.com/js/js_regexp.asp [Accessed: 10 June].
+
+- Formspree. 2024. *Formspree — HTML form backend service.* [Online]. Available at: https://formspree.io [Accessed: 10 June].
+
+- Google. 2024. *Google Maps Embed API documentation.* [Online]. Available at: https://developers.google.com/maps/documentation/embed/get-started [Accessed: 14 June].
+
+- Google Search Central. 2024. *Sitemaps documentation.* [Online]. Available at: https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview [Accessed: 12 June].
+
+- Google Search Central. 2024. *Introduction to robots.txt.* [Online]. Available at: https://developers.google.com/search/docs/crawling-indexing/robots/intro [Accessed: 12 June].
+
+- Open Graph Protocol. 2024. *The Open Graph protocol.* [Online]. Available at: https://ogp.me [Accessed: [your date]].
+
+- X (formerly Twitter). 2024. *Twitter Card markup documentation.* [Online]. Available at: https://developer.x.com/en/docs/x-for-websites/cards/overview/markup [Accessed: 12 June].
+
+- Moz. 2024. *What is off-page SEO?* [Online]. Available at: https://moz.com/learn/seo/off-site-seo [Accessed: 12 June].
+
+- W3C Web Accessibility Initiative (WAI). 2024. *ARIA Authoring Practices Guide — Dialog (Modal).* [Online]. Available at: https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/ [Accessed: 15 JUne].
+
+- MDN Web Docs. 2024. *ARIA: role attribute.* [Online]. Available at: https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/role [Accessed: 15 June].
+
+
 
 
 
