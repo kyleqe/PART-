@@ -657,7 +657,27 @@ p { margin-bottom: 1rem;
 .site-header.scrolled {
   box-shadow: var(--shadow-lg);
 }
-
+/*AJAX Form Banner  */
+.formBanner {
+  display: none;
+  padding: 1rem 1.25rem;
+  border-radius: var(--radius);
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  font-family: var(--font-body);
+}
+ 
+.formBanner--success {
+  background: #E6F4EA;
+  border: 1px solid #34A853;
+  color: #1E7E34;
+}
+ 
+.formBanner--error {
+  background: #FDE8E8;
+  border: 1px solid #D64545;
+  color: #B91C1C;
+}
 /* footer */
 
 .footer {
