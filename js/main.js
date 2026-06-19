@@ -30,6 +30,19 @@ allNavLinks.forEach(function (link) {
   }
 });
 
+/*Sticky Header Shadow on Scroll */
+const siteHeader = document.querySelector(".site-header");
+
+if (siteHeader) {
+  window.addEventListener("scroll", function () {
+    if (window.scrollY > 10) {
+      siteHeader.classList.add("scrolled");
+    } else {
+      siteHeader.classList.remove("scrolled");
+    }
+  });
+}
+
 function showFieldError(input, message) {
   const formGroup = input.closest(".formGroup");
   if (!formGroup) return;
