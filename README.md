@@ -123,6 +123,8 @@ PART 1/
 - Slaying The Dragon. (2024) *Learn CSS Variables In 7 Minutes*[Youtube]. Available at: https://www.youtube.com/watch?v=5wLrz_zUwoU 
 [Accessed: 9 May 2026].
 - Coding2GO. (2025) *Learn CSS Flexbox in 20 Minutes (Course)*[Youtube]. Available at:https://www.youtube.com/watch?v=wsTv9y931o8 [Accessed: 9 May 2026].
+- Google. 2026. *KH Training Co. studio and bootcamp gallery images*[AI-generated images, 5x]. Google Gemini. Generated: [9 June 2026]. Available at: https://gemini.google.com [Accessed: 9 June 2026].
+- Formspree. 2024. *Formspree — HTML form backend service.*  [Online]. Available at: https://formspree.io   [Accessed: [18 june 2026]].
 
 
 
