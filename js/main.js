@@ -67,6 +67,87 @@ if ("IntersectionObserver" in window && revealTargets.length > 0) {
   });
 }
 
+/* lightbox gallery */
+
+function initLightbox() {
+  const galleryItems = document.querySelectorAll(".galleryItem");
+  if (galleryItems.length === 0) return;
+ 
+  const overlay = document.createElement("div");
+  overlay.id = "lightbox";
+  overlay.setAttribute("role", "dialog");
+  overlay.setAttribute("aria-modal", "true");
+  overlay.setAttribute("aria-label", "Image viewer");
+  overlay.innerHTML = `
+    <button class="lb-close" aria-label="Close image viewer">&times;</button>
+    <button class="lb-prev" aria-label="Previous image">&#8249;</button>
+    <button class="lb-next" aria-label="Next image">&#8250;</button>
+    <div class="lb-content">
+      <img class="lb-img" src="" alt="" />
+      <p class="lb-caption"></p>
+    </div>
+  `;
+  document.body.appendChild(overlay);
+ 
+  const lbImg     = overlay.querySelector(".lb-img");
+  const lbCaption = overlay.querySelector(".lb-caption");
+  const lbClose   = overlay.querySelector(".lb-close");
+  const lbPrev    = overlay.querySelector(".lb-prev");
+  const lbNext    = overlay.querySelector(".lb-next");
+ 
+  let currentIndex = 0;
+  const items = Array.from(galleryItems);
+ 
+  function openLightbox(index) {
+    currentIndex = index;
+    const item = items[currentIndex];
+    lbImg.src = item.dataset.src || item.querySelector("img").src;
+    lbImg.alt = item.querySelector("img").alt || "";
+    lbCaption.textContent = item.dataset.caption || "";
+    overlay.classList.add("lb-open");
+    document.body.style.overflow = "hidden";
+    lbClose.focus();
+  }
+ 
+  function closeLightbox() {
+    overlay.classList.remove("lb-open");
+    document.body.style.overflow = "";
+    items[currentIndex].querySelector("img").focus();
+  }
+ 
+  function showPrev() { currentIndex = (currentIndex - 1 + items.length) % items.length; openLightbox(currentIndex); }
+  function showNext() { currentIndex = (currentIndex + 1) % items.length; openLightbox(currentIndex); }
+ 
+  items.forEach(function (item, index) {
+    item.addEventListener("click", function () { openLightbox(index); });
+    item.setAttribute("tabindex", "0");
+    item.setAttribute("role", "button");
+    item.setAttribute("aria-label", "View image: " + (item.dataset.caption || ""));
+    item.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") openLightbox(index);
+    });
+  });
+ 
+  lbClose.addEventListener("click", closeLightbox);
+  lbPrev.addEventListener("click", showPrev);
+  lbNext.addEventListener("click", showNext);
+ 
+  overlay.addEventListener("click", function (e) {
+    if (e.target === overlay) closeLightbox();
+  });
+ 
+  document.addEventListener("keydown", function (e) {
+    if (!overlay.classList.contains("lb-open")) return;
+    if (e.key === "Escape") closeLightbox();
+    if (e.key === "ArrowLeft") showPrev();
+    if (e.key === "ArrowRight") showNext();
+  });
+}
+ 
+initLightbox();
+ 
+/* FORM VALIDATIOn */
+
 function showFieldError(input, message) {
   const formGroup = input.closest(".formGroup");
   if (!formGroup) return;
