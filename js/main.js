@@ -17,6 +17,19 @@ if (navToggle && navLinks) {
   });
 }
 
+/*Highlight Active Page in Nav */
+const currentPage = window.location.pathname.split("/").pop() || "index.html";
+const allNavLinks = document.querySelectorAll(".navLinks a");
+
+allNavLinks.forEach(function (link) {
+  const href = link.getAttribute("href");
+  if (href === currentPage) {
+    link.classList.add("active");
+  } else {
+    link.classList.remove("active");
+  }
+});
+
 function showFieldError(input, message) {
   const formGroup = input.closest(".formGroup");
   if (!formGroup) return;
