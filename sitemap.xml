@@ -25,4 +25,12 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Enquiry -->
+  <url>
+    <loc>https://github.com/kyleqe/PART-/blob/main/enquiry.html</loc>
+    <lastmod>2026-06-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
 </urlset>
