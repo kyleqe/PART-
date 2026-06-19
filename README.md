@@ -129,6 +129,77 @@ PART 1/
 - Live validation on blur and on input (real-time error clearing)
 - Inline error messages displayed under each invalid field
 - Focus automatically moves to the first invalid field on failed submit
+### AJAX Form Submission
+- Integrated Formspree as a serverless form backend
+- Forms submit via the Fetch API — no page reload on submission
+- Loading state on submit button ("Sending...") with disabled state
+  during request
+- Success banner displayed on successful submission, form auto-resets
+- Error banner displayed on network failure or server-side rejection
+- Both the enquiry form (enquiry.html) and contact form (contact.html)
+  wired up with AJAX submission
+
+### Gallery and Lightbox
+- Added a Studio & Training Gallery section to about.html
+- Built a custom JavaScript lightbox (no external libraries)
+- Click or keyboard (Enter/Space) opens any gallery image full-screen
+- Previous/Next navigation via on-screen buttons and arrow keys
+- Escape key and background click close the lightbox
+- Full keyboard accessibility with focus management and aria-labels
+
+### Site-Wide Search
+- Implemented a JavaScript-powered search bar, auto-injected into the
+  navigation bar on every page
+- Built a searchable content index covering all 5 pages and key
+  sections (services, qualifications, FAQ, gallery, contact details)
+- Live filtering of results as the user types
+- Keyboard navigation through results (arrow keys, Enter, Escape)
+- Clicking a result navigates directly to the relevant page/section
+
+### SEO Optimisation
+- Added unique meta description and meta keywords to every page
+- Added Open Graph tags (og:title, og:description, og:image, og:type,
+  og:url) for improved link previews on social media and messaging apps
+- Added Twitter Card meta tags
+- Added canonical URL tags to prevent duplicate content issues
+- Added descriptive alt text to all images, including gallery photos
+- Added role="img" and aria-label to all decorative icon divs
+- Fixed invalid width="350rem" attribute to width="350" on image tags
+- Added loading="lazy" to all images for improved page speed
+
+### Page Speed
+- Added loading="lazy" attribute to all images
+- Documented image compression workflow
+
+### Security
+- Added X-Content-Type-Options: nosniff meta tag
+- Added Referrer-Policy: strict-origin-when-cross-origin meta tag
+- Verified all external links (WhatsApp, Instagram) use
+  rel="noopener" to prevent tab-napping vulnerabilities
+- Confirmed HTTPS is enforced automatically via GitHub Pages
+- Documented _headers reference file for future migration to a host
+  that supports custom HTTP security headers
+- No API keys, secrets, or sensitive data exposed in client-side code
+
+### External Services Integration
+- Embedded Google Maps iframe in contact.html showing both the
+  Green Point studio and Camps Bay Promenade locations
+- Integrated Formspree as the form submission backend
+
+### Testing and Debugging
+- Tested mobile menu open/close behaviour across breakpoints
+- Tested form validation with empty fields, invalid email formats,
+  and invalid phone number formats
+- Tested AJAX submission success and error states
+- Tested gallery lightbox keyboard navigation and screen reader labels
+- Tested site search across all indexed pages and sections
+- Cross-browser tested on Chrome, Firefox, and Edge
+- Verified all internal links and anchors resolve correctly
+
+### Documentation
+- Updated README.md with full Part 3 changelog
+- Updated README.md references section with new sources
+
 
 ## References
 - REPSSA. 2024. *Register of Exercise Professionals South Africa.* [Online]. Available at: https://www.repssa.com [Accessed: 9 April 2026].
