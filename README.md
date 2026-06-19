@@ -196,6 +196,12 @@ PART 1/
 - Cross-browser tested on Chrome, Firefox, and Edge
 - Verified all internal links and anchors resolve correctly
 
+### Off-Page SEO
+- Created sitemap.xml listing all 5 pages with priority and change
+  frequency for search engine crawlers
+- Created robots.txt to guide search engine indexing and point to
+  the sitemap
+
 ### Documentation
 - Updated README.md with full Part 3 changelog
 - Updated README.md references section with new sources

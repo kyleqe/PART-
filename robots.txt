@@ -1,0 +1,9 @@
+# robots.txt — KH Training Co.
+# Tells search engine crawlers which pages to index
+ 
+User-agent: *
+Allow: /
+ 
+# Sitemap location
+Sitemap: https://github.com/kyleqe/PART-/blob/main/sitemap.xml
+ 
