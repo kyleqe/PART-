@@ -43,6 +43,30 @@ if (siteHeader) {
   });
 }
 
+/*Scroll Reveal Animation */
+const revealTargets = document.querySelectorAll(
+  ".card, .testimonial, .pricingCard, .stat, .faqItem, .contactCard"
+);
+
+if ("IntersectionObserver" in window && revealTargets.length > 0) {
+  const revealObserver = new IntersectionObserver(
+    function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("reveal-visible");
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.15 }
+  );
+
+  revealTargets.forEach(function (el) {
+    el.classList.add("reveal-hidden");
+    revealObserver.observe(el);
+  });
+}
+
 function showFieldError(input, message) {
   const formGroup = input.closest(".formGroup");
   if (!formGroup) return;
