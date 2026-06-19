@@ -111,6 +111,24 @@ PART 1/
 - Compressed and optimised all images for faster load times
 - Cross-browser tested on Chrome, Firefox, and Edge
 
+## Part 3 Initial Submission — [19 June]
+
+### JavaScript Functionality
+- Created js/main.js with full Part 3 functionality
+- Implemented mobile hamburger menu toggle with animated icon transform
+- Added active nav-link highlighting based on current page
+- Added sticky header shadow effect on scroll
+- Implemented scroll-reveal animations on cards, testimonials, pricing
+  cards, stats, FAQ items, and gallery items using IntersectionObserver
+
+### Form Validation
+- Built custom client-side validation engine (no external libraries)
+- Required field checks on all enquiry and contact form inputs
+- Email format validation using regex pattern matching
+- South African phone number format validation
+- Live validation on blur and on input (real-time error clearing)
+- Inline error messages displayed under each invalid field
+- Focus automatically moves to the first invalid field on failed submit
 
 ## References
 - REPSSA. 2024. *Register of Exercise Professionals South Africa.* [Online]. Available at: https://www.repssa.com [Accessed: 9 April 2026].
