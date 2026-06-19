@@ -657,6 +657,73 @@ p { margin-bottom: 1rem;
 .site-header.scrolled {
   box-shadow: var(--shadow-lg);
 }
+
+/* Gallery */
+
+.galleryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+}
+ 
+.galleryItem {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  aspect-ratio: 4 / 3;
+  background: var(--lightgrey);
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+ 
+.galleryItem:hover,
+.galleryItem:focus-visible {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  outline: none;
+}
+ 
+.galleryItem img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ 
+.galleryItem::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.55), transparent 50%);
+  opacity: 0;
+  transition: opacity var(--transition);
+}
+ 
+.galleryItem:hover::after,
+.galleryItem:focus-visible::after {
+  opacity: 1;
+}
+ 
+.galleryCaption {
+  position: absolute;
+  bottom: 0.75rem;
+  left: 0.9rem;
+  right: 0.9rem;
+  color: var(--white);
+  font-size: 0.85rem;
+  font-family: var(--font-head);
+  font-weight: 600;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: all var(--transition);
+}
+ 
+.galleryItem:hover .galleryCaption,
+.galleryItem:focus-visible .galleryCaption {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /*AJAX Form Banner  */
 .formBanner {
   display: none;
